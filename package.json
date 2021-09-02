@@ -4,7 +4,7 @@
   "description": "Library for building dom from html and searching node in it.",
   "main": "lib/documentServer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,7 @@
     "example": "example",
     "lib": "lib"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
 }

@@ -16,8 +16,8 @@ test('builderdom comments', () => {
     let dom = builderdom.html_to_dom(`
     <html>
     <!-- comment -->
-    // comment
     <span>test</span>
+	// comment
     </html>
     `);
     expect(dom.length).toBe(2);

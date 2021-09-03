@@ -7,10 +7,10 @@ async function getHtml(url) {
 	return (await axios.get(url)).data;
 }
 async function parse() {
-	let html = await getHtml('https://education.github.com/pack');
+	let html = await getHtml('https://rydo.ru/chelyabinsk/');
 	documentserver.build(html);
-	let breadcrumbSelected = documentserver.querySelector("nav[aria-label=Breadcrumb] ol > .breadcrumb-item-selected")[0];
-	console.log(breadcrumbSelected);
+	let selected = documentserver.querySelector(".nss-item-title a");
+	console.log(selected);
 }
 
 parse();	

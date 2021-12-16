@@ -1,6 +1,6 @@
 {
   "name": "@superwebteam/server-queryselector",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Library for building dom from html and searching node in it.",
   "main": "lib/documentServer.js",
   "scripts": {
@@ -10,6 +10,16 @@
     "type": "git",
     "url": "git+https://ru51a4@bitbucket.org/ru51a4/queryselector.git"
   },
+  "keywords" : [
+    "html" ,
+    "server-queryselector",
+    "queryselector",
+    "parser",
+    "scraper",
+    "dom",
+    "selector",
+    "htmlparser"
+  ],
   "author": "",
   "license": "ISC",
   "homepage": "https://bitbucket.org/ru51a4/queryselector#readme",

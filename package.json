@@ -1,5 +1,5 @@
 {
-  "name": "@superwebteam/server-queryselector",
+  "name": "server-queryselector",
   "version": "1.1.1",
   "description": "Library for building dom from html and searching node in it.",
   "main": "lib/documentServer.js",

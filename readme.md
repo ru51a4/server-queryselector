@@ -12,7 +12,7 @@ Node methods:
 input:
 ```js
 const axios = require('axios').default;
-const documentServer = require('@superwebteam/server-queryselector')
+const documentServer = require('server-queryselector')
 
 axios.get('https://education.github.com/pack').then((response)=>{
     const documentserver = new documentServer();

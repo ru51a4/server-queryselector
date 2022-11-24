@@ -11,7 +11,7 @@ test('real website', async () => {
         response = await axios.get('https://education.github.com/pack')
         const documentserver = new documentServer();
         documentserver.build(response.data);
-        let breadcrumbSelected = documentserver.querySelector(".h1-mktg.lh-condensed.text-left.d-inline-block")[0];
+        let breadcrumbSelected = documentserver.querySelector(".lh-condensed")[0];
         let innerHTML = breadcrumbSelected.innerHTML();
-        expect(innerHTML).toBe(`<h1 class="h1-mktg lh-condensed text-left d-inline-block">GitHub Student Developer Pack</h1>`);
+        expect(innerHTML).toBe(`<h1 class="f0-mktg lh-condensed text-left d-inline-block">GitHub Student Developer Pack</h1>`);
 });
